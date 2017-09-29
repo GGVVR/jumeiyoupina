@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*header*/
+
+.top {
+	position: relative;
+	height: 32px;
+	line-height: 32px;
+	color: #999999;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.top a {
+	text-decoration: none;
+}
+
+.top .user_box {
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 12px;
+	font-family: "arial narrow";
+}
+
+.top .user_box a:hover {
+	color: pink;
+}
+
+.top_pic {
+	position: relative;
+	left: -300px;
+	top: 5px;
+}
+
+.top_transpot {
+	position: absolute;
+	left: 780px;
+	top: 35px;
+}
+
+.shuip {
+	position: relative;
+	top: 30px;
+	border: 1px solid gray;
+	color: rgba(0, 0, 0, .6);
+}
+
+.top_center {
+	text-align: center;
+	height: 67px;
+	width: 1369px;
+}
+
+
+/*section*/
+
+.big_background {
+	width: 1349px;
+	height: 852px;
+	background: #eee7e1;
+}
+
+.container {
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 20px 194.5px;
+	/*background: blue;*/
+}
+
+.address {
+	width: 960px;
+	height: 163px;
+	border-bottom: 1px solid gray;
+	background: white;
+}
+
+.address_pos {
+	padding: 10px 20px;
+}
+
+.address_ziti {
+	width: 898px;
+	height: 20px;
+	line-height: 20px;
+	background: papayawhip;
+	margin: 0 auto;
+	padding: 3px 3px;
+	border: 1px solid;
+	color: #ed145b;
+	font-size: 12px;
+}
+
+#adress_piao {
+	margin: 0 auto;
+	padding: 3px 3px;
+	position: relative;
+	top: -13px;
+}
+
+.address_add {
+	width: 920px;
+	height: 48px;
+	padding: 30px 10px 5px 23px;
+}
+
+.address_add input {
+	/*position:relative;
+	left: 0;
+	bottom: 0;*/
+	width: 92px;
+	height: 29px;
+}
+
+
+/*送货时间*/
+
+.time {
+	width: 960px;
+	height: 118px;
+	background: white;
+	border-bottom: 1px solid gray;
+}
+
+.time_choese {
+	height: 36px;
+	line-height: 36px;
+	float: left;
+	padding: 0 20px 0 10px;
+	margin-right: 20px;
+}
+
+.time_choese input {
+	float: left;
+}
+
+#working {
+	line-height: 38px;
+	text-align: center;
+	width: 122px;
+	height: 38px;
+	border: 1px solid #ccc;
+	vertical-align: middle;
+	position: relative;
+}
+#working input{
+	/*position: relative;*/
+	margin-top: 12.5px;
+	height: 13px;
+	display: inline-block;
+}
+#onweek {
+	width: 110px;
+	height: 38px;
+	border: 1px solid #ccc;
+	margin: -40px 230px;
+}
+
+#everyday {
+	width: 180px;
+	height: 38px;
+	border: 1px solid #ccc;
+	margin: -40px 500px
+}
